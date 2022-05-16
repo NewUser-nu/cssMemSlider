@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+.memSlider{
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+    border: 10px solid white;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation {
+    /* position: absolute;               
+    bottom: 16px;
+    left: 50px;             
+    transform: translateX(-50%)  */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.bar{
+    height: 5px;
+    width: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: red;
+    opacity: .5;
+    border-radius: 8px;
+    transition: all .4s ease;
+}
+.bar :hover{
+    opacity: .8;
+    transform: scale(1.1);
+}
+input[name="a"]{
+    position: absolute;
+    visibility: hidden;
+}
